@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Abhay_Blog::blogmanager" translate="title" title="Blog Management" module="Abhay_Blog" sortOrder="10" resource="Abhay_Blog::blogmanager"/>
+        <add id="Abhay_Blog::manage" translate="title" title="Manage" module="Abhay_Blog" sortOrder="10" resource="Abhay_Blog::manage" parent="Abhay_Blog::blogmanager" action="blog/manage/index"/>
+    </menu>
+</config>
